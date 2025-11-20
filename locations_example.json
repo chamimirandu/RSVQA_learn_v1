@@ -1,0 +1,86 @@
+{
+  "locations": [
+    {
+      "name": "newyork_manhattan",
+      "description": "New York City - Manhattan urban area",
+      "bbox": [-74.05, 40.7, -73.95, 40.8],
+      "start_date": "2023-06-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 10
+    },
+    {
+      "name": "iowa_farmland",
+      "description": "Iowa agricultural region",
+      "bbox": [-93.65, 41.55, -93.55, 41.65],
+      "start_date": "2023-07-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 10
+    },
+    {
+      "name": "amazon_rainforest",
+      "description": "Amazon rainforest - Brazil",
+      "bbox": [-60.1, -3.1, -60.0, -3.0],
+      "start_date": "2023-06-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 15,
+      "notes": "Higher cloud threshold for tropical area"
+    },
+    {
+      "name": "california_coast",
+      "description": "San Francisco Bay Area - California",
+      "bbox": [-122.5, 37.7, -122.4, 37.8],
+      "start_date": "2023-06-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 5,
+      "notes": "Low cloud cover expected in summer"
+    },
+    {
+      "name": "arizona_desert",
+      "description": "Arizona desert region",
+      "bbox": [-111.1, 33.4, -111.0, 33.5],
+      "start_date": "2023-06-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 5,
+      "notes": "Desert area with minimal cloud cover"
+    },
+    {
+      "name": "florida_coast",
+      "description": "Florida coastal area",
+      "bbox": [-80.2, 25.8, -80.1, 25.9],
+      "start_date": "2023-01-01",
+      "end_date": "2023-03-31",
+      "cloud_percentage": 15,
+      "notes": "Winter months have less cloud than summer"
+    },
+    {
+      "name": "chicago_urban",
+      "description": "Chicago metropolitan area",
+      "bbox": [-87.7, 41.8, -87.6, 41.9],
+      "start_date": "2023-06-01",
+      "end_date": "2023-09-30",
+      "cloud_percentage": 10
+    },
+    {
+      "name": "yellowstone",
+      "description": "Yellowstone National Park",
+      "bbox": [-110.8, 44.5, -110.7, 44.6],
+      "start_date": "2023-07-01",
+      "end_date": "2023-08-31",
+      "cloud_percentage": 10,
+      "notes": "Summer months only to avoid snow"
+    }
+  ],
+  "configuration": {
+    "export_scale": 10,
+    "export_crs": "EPSG:3857",
+    "patch_size": 256,
+    "quality_min_mean": 30,
+    "quality_max_mean": 225
+  },
+  "tips": {
+    "date_selection": "Choose summer months (Jun-Sep) for Northern Hemisphere locations",
+    "cloud_threshold": "Urban/temperate: 10%, Tropical: 15-20%, Desert: 5%",
+    "bbox_size": "0.1° × 0.1° is approximately 11km × 11km at mid-latitudes",
+    "diversity": "Select 5-10 diverse locations: urban, rural, coastal, agricultural, forest"
+  }
+}
