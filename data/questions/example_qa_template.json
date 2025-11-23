@@ -1,0 +1,34 @@
+[
+    {
+        "image_id": "image_001",
+        "image_filename": "image_001.tif",
+        "question": "Is there water present in the image?",
+        "answer": "yes",
+        "question_type": "presence",
+        "answer_type": "binary"
+    },
+    {
+        "image_id": "image_001",
+        "image_filename": "image_001.tif",
+        "question": "What is the dominant land cover type?",
+        "answer": "forest",
+        "question_type": "area",
+        "answer_type": "categorical"
+    },
+    {
+        "image_id": "image_001",
+        "image_filename": "image_001.tif",
+        "question": "How many buildings are visible?",
+        "answer": "5",
+        "question_type": "count",
+        "answer_type": "number"
+    },
+    {
+        "image_id": "image_002",
+        "image_filename": "image_002.tif",
+        "question": "Is this an urban area?",
+        "answer": "no",
+        "question_type": "area",
+        "answer_type": "binary"
+    }
+]
